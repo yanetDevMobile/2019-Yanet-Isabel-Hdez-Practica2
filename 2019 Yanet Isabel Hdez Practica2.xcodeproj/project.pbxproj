@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		847D6B9921E64075004A4F9E /* helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847D6B9821E64075004A4F9E /* helpers.swift */; };
 		84FBC93C21E5399500DE193B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FBC93B21E5399500DE193B /* AppDelegate.swift */; };
 		84FBC93E21E5399500DE193B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FBC93D21E5399500DE193B /* ViewController.swift */; };
 		84FBC94121E5399500DE193B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FBC93F21E5399500DE193B /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		84FBC94621E5399500DE193B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FBC94421E5399500DE193B /* LaunchScreen.storyboard */; };
 		84FBC95121E5399500DE193B /* _019_Yanet_Isabel_Hdez_Practica2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FBC95021E5399500DE193B /* _019_Yanet_Isabel_Hdez_Practica2Tests.swift */; };
 		84FBC95C21E5399500DE193B /* _019_Yanet_Isabel_Hdez_Practica2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FBC95B21E5399500DE193B /* _019_Yanet_Isabel_Hdez_Practica2UITests.swift */; };
+		84FBC96A21E551DF00DE193B /* DetalleContactoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FBC96921E551DF00DE193B /* DetalleContactoViewController.swift */; };
+		84FBC96C21E555A800DE193B /* Persona.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FBC96B21E555A800DE193B /* Persona.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		847D6B9821E64075004A4F9E /* helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helpers.swift; sourceTree = "<group>"; };
 		84FBC93821E5399500DE193B /* 2019 Yanet Isabel Hdez Practica2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2019 Yanet Isabel Hdez Practica2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FBC93B21E5399500DE193B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84FBC93D21E5399500DE193B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		84FBC95721E5399500DE193B /* 2019 Yanet Isabel Hdez Practica2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2019 Yanet Isabel Hdez Practica2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FBC95B21E5399500DE193B /* _019_Yanet_Isabel_Hdez_Practica2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _019_Yanet_Isabel_Hdez_Practica2UITests.swift; sourceTree = "<group>"; };
 		84FBC95D21E5399500DE193B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FBC96921E551DF00DE193B /* DetalleContactoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleContactoViewController.swift; sourceTree = "<group>"; };
+		84FBC96B21E555A800DE193B /* Persona.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persona.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +106,12 @@
 				84FBC93B21E5399500DE193B /* AppDelegate.swift */,
 				84FBC93D21E5399500DE193B /* ViewController.swift */,
 				84FBC93F21E5399500DE193B /* Main.storyboard */,
+				84FBC96921E551DF00DE193B /* DetalleContactoViewController.swift */,
 				84FBC94221E5399500DE193B /* Assets.xcassets */,
 				84FBC94421E5399500DE193B /* LaunchScreen.storyboard */,
 				84FBC94721E5399500DE193B /* Info.plist */,
+				84FBC96B21E555A800DE193B /* Persona.swift */,
+				847D6B9821E64075004A4F9E /* helpers.swift */,
 			);
 			path = "2019 Yanet Isabel Hdez Practica2";
 			sourceTree = "<group>";
@@ -256,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84FBC96C21E555A800DE193B /* Persona.swift in Sources */,
 				84FBC93E21E5399500DE193B /* ViewController.swift in Sources */,
 				84FBC93C21E5399500DE193B /* AppDelegate.swift in Sources */,
+				84FBC96A21E551DF00DE193B /* DetalleContactoViewController.swift in Sources */,
+				847D6B9921E64075004A4F9E /* helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
